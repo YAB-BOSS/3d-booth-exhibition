@@ -145,6 +145,62 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
 
+// ─── CONTACT FORM (FORMSPREE AJAX) ───
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    
+    const form = e.target;
+    const submitBtn = document.getElementById('submitBtn');
+    const formInputs = document.getElementById('formInputs');
+    const successMsg = document.getElementById('formSuccess');
+    const errorMsg = document.getElementById('formError');
+
+    // Show sending state
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = 'Sending… <i class="fas fa-spinner fa-spin"></i>';
+
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        formInputs.style.display = 'none';
+        successMsg.style.display = 'block';
+        errorMsg.style.display = 'none';
+        form.reset();
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            const errMsg = data["errors"].map(error => error["message"]).join(", ");
+            alert('Error: ' + errMsg + '\nPlease email yabdesigns@gmail.com directly.');
+          } else {
+            errorMsg.style.display = 'block';
+          }
+        }).catch(() => {
+            errorMsg.style.display = 'block';
+        });
+      }
+    })
+    .catch(error => {
+      console.error('Form submission error:', error);
+      errorMsg.style.display = 'block';
+    })
+    .finally(() => {
+      submitBtn.disabled = false;
+      const btnText = (typeof T !== 'undefined' && T[currentLang] && T[currentLang].form_submit ? T[currentLang].form_submit : 'Send Message');
+      submitBtn.innerHTML = `<span data-i18n="form_submit">${btnText}</span> <i class="fas fa-paper-plane"></i>`;
+    });
+  });
+}
+
 // ─── INIT ───
 document.addEventListener('DOMContentLoaded', () => {
   buildLangDropdown();
