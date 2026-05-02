@@ -145,55 +145,6 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
 
-// ─── CONTACT FORM (CLOUDFLARE WORKER) ───
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  const form = e.target;
-  const submitBtn = form.querySelector('button[type="submit"]');
-  const successMsg = document.getElementById('formSuccess');
-
-  // Disable button and show sending state
-  submitBtn.disabled = true;
-  submitBtn.innerHTML = 'Sending… <i class="fas fa-spinner fa-spin"></i>';
-
-  // Collect all named fields into a plain object for JSON
-  const formData = new FormData(form);
-  const payload = {};
-  formData.forEach((value, key) => { payload[key] = value; });
-
-  // POST to Cloudflare Worker — replace URL after deploying your Worker
-  fetch('https://yab-contact.YOUR_SUBDOMAIN.workers.dev', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-    },
-    body: JSON.stringify(payload)
-  })
-    .then(res => res.json())
-    .then(data => {
-      if (data.ok) {
-        // ✅ Success — show inline message, reset form
-        successMsg.style.display = 'block';
-        form.reset();
-        setTimeout(() => { successMsg.style.display = 'none'; }, 10000);
-      } else {
-        // Formspree returned an error (e.g. unactivated endpoint)
-        const errMsg = data.errors?.map(err => err.message).join(', ') || 'Submission failed.';
-        alert('Error: ' + errMsg + '\nPlease email yabdesigns@gmail.com directly.');
-      }
-    })
-    .catch(error => {
-      console.error('Form submission error:', error);
-      alert('Sorry, there was a network error. Please email yabdesigns@gmail.com directly.');
-    })
-    .finally(() => {
-      submitBtn.disabled = false;
-      submitBtn.innerHTML = (T[currentLang]?.form_submit || 'Send Message') + ' <i class="fas fa-paper-plane"></i>';
-    });
-});
-
 // ─── INIT ───
 document.addEventListener('DOMContentLoaded', () => {
   buildLangDropdown();
