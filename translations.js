@@ -45,7 +45,7 @@ en: {
   contact_title:'Let\'s Create Something <span>Amazing</span>', contact_desc:"Ready to make your brand stand out at your next exhibition? Fill out the form and I'll get back to you within 24 hours.",
   contact_response:"Response within 24h", contact_worldwide:"Worldwide Projects",
   form_name:"Full Name *", form_email:"Email *", form_company:"Company *", form_event:"Show / Event Name *", form_size:"Booth Size *", form_budget:"Budget Range *", form_brief:"Project Brief *",
-  form_size_ph:"Select size", form_budget_ph:"Select budget", form_file:"Attach File (optional)", form_file_btn:"Choose File", form_file_none:"No file chosen", form_submit:'Send Message <i class="fas fa-paper-plane"></i>', form_success:"Thank you! Your message is ready to send. I will reply within 24 hours.",
+  form_size_ph:"Select size", form_budget_ph:"Select budget", form_file:"Attach File (optional)", form_file_btn:"Choose File", form_file_none:"No file chosen", form_submit:"Send Message", form_success:'<i class="fas fa-paper-plane"></i> <strong>Thank you for your trust!</strong><br>Your request has been successfully received. We will speak very soon to transform your vision into an exceptional 3D reality.',
   footer_rights:"All rights reserved."
 },
 
@@ -85,7 +85,7 @@ fr: {
   contact_title:'Créons Quelque Chose d\'<span>Incroyable</span>', contact_desc:"Prêt à faire briller votre marque lors de votre prochaine exposition ? Remplissez le formulaire et je vous répondrai sous 24 heures.",
   contact_response:"Réponse sous 24h", contact_worldwide:"Projets Mondiaux",
   form_name:"Nom Complet *", form_email:"Email *", form_company:"Entreprise *", form_event:"Nom du Salon *", form_size:"Taille du Stand *", form_budget:"Budget *", form_brief:"Description du Projet *",
-  form_size_ph:"Choisir la taille", form_budget_ph:"Choisir le budget", form_file:"Joindre un document (optionnel)", form_file_btn:"Choisir un fichier", form_file_none:"Aucun fichier choisi", form_submit:'Envoyer <i class="fas fa-paper-plane"></i>', form_success:"Merci ! Votre message est prêt à être envoyé. Je vous répondrai sous 24h.",
+  form_size_ph:"Choisir la taille", form_budget_ph:"Choisir le budget", form_file:"Joindre un document (optionnel)", form_file_btn:"Choisir un fichier", form_file_none:"Aucun fichier choisi", form_submit:"Envoyer", form_success:'<i class="fas fa-paper-plane"></i> <strong>Merci pour votre confiance !</strong><br>Votre demande est bien reçue. On se parle très bientôt pour transformer votre vision en une réalité 3D exceptionnelle.',
   footer_rights:"Tous droits réservés."
 },
 
@@ -125,7 +125,7 @@ es: {
   contact_title:'Creemos Algo <span>Increíble</span>', contact_desc:"¿Listo para destacar tu marca en tu próxima exposición? Completa el formulario y te responderé en 24 horas.",
   contact_response:"Respuesta en 24h", contact_worldwide:"Proyectos Mundiales",
   form_name:"Nombre Completo *", form_email:"Correo *", form_company:"Empresa *", form_event:"Nombre del Evento *", form_size:"Tamaño del Stand *", form_budget:"Presupuesto *", form_brief:"Descripción del Proyecto *",
-  form_size_ph:"Seleccionar tamaño", form_budget_ph:"Seleccionar presupuesto", form_file:"Adjuntar archivo (opcional)", form_file_btn:"Elegir archivo", form_file_none:"Ningún archivo seleccionado", form_submit:'Enviar Mensaje <i class="fas fa-paper-plane"></i>', form_success:"¡Gracias! Tu mensaje está listo para enviarse. Responderé en 24 horas.",
+  form_size_ph:"Seleccionar tamaño", form_budget_ph:"Seleccionar presupuesto", form_file:"Adjuntar archivo (opcional)", form_file_btn:"Elegir archivo", form_file_none:"Ningún archivo seleccionado", form_submit:"Enviar Mensaje", form_success:'<i class="fas fa-paper-plane"></i> <strong>¡Gracias por su confianza!</strong><br>Su solicitud ha sido recibida con éxito. Hablaremos muy pronto para transformar su visión en una realidad 3D excepcional.',
   footer_rights:"Todos los derechos reservados."
 },
 
@@ -165,7 +165,7 @@ ar: {
   contact_title:'لنصنع شيئاً <span>مذهلاً</span>', contact_desc:"مستعد لإبراز علامتك التجارية في معرضك القادم؟ املأ النموذج وسأرد عليك خلال 24 ساعة.",
   contact_response:"رد خلال 24 ساعة", contact_worldwide:"مشاريع عالمية",
   form_name:"الاسم الكامل *", form_email:"البريد الإلكتروني *", form_company:"الشركة *", form_event:"اسم المعرض *", form_size:"حجم الجناح *", form_budget:"الميزانية *", form_brief:"وصف المشروع *",
-  form_size_ph:"اختر الحجم", form_budget_ph:"اختر الميزانية", form_file:"إرفاق ملف (اختياري)", form_file_btn:"اختر ملفاً", form_file_none:"لم يتم اختيار ملف", form_submit:'إرسال <i class="fas fa-paper-plane"></i>', form_success:"شكراً لك! رسالتك جاهزة للإرسال. سأرد عليك خلال 24 ساعة.",
+  form_size_ph:"اختر الحجم", form_budget_ph:"اختر الميزانية", form_file:"إرفاق ملف (اختياري)", form_file_btn:"اختر ملفاً", form_file_none:"لم يتم اختيار ملف", form_submit:"إرسال", form_success:'<i class="fas fa-paper-plane"></i> <strong>شكراً لثقتكم!</strong><br>تم استلام طلبكم بنجاح. سنتحدث قريباً جداً لتحويل رؤيتكم إلى واقع ثلاثي الأبعاد استثنائي.',
   footer_rights:"جميع الحقوق محفوظة."
 },
 
@@ -205,7 +205,7 @@ de: {
   contact_title:'Lassen Sie Uns Etwas <span>Großartiges</span> Schaffen', contact_desc:"Bereit, Ihre Marke auf der nächsten Messe hervorzuheben? Füllen Sie das Formular aus.",
   contact_response:"Antwort innerhalb 24h", contact_worldwide:"Weltweite Projekte",
   form_name:"Vollständiger Name *", form_email:"E-Mail *", form_company:"Unternehmen *", form_event:"Messe / Veranstaltung *", form_size:"Standgröße *", form_budget:"Budgetrahmen *", form_brief:"Projektbeschreibung *",
-  form_size_ph:"Größe wählen", form_budget_ph:"Budget wählen", form_file:"Datei anhängen (optional)", form_file_btn:"Datei auswählen", form_file_none:"Keine Datei ausgewählt", form_submit:'Nachricht Senden <i class="fas fa-paper-plane"></i>', form_success:"Danke! Ihre Nachricht ist versandbereit. Ich antworte innerhalb von 24h.",
+  form_size_ph:"Größe wählen", form_budget_ph:"Budget wählen", form_file:"Datei anhängen (optional)", form_file_btn:"Datei auswählen", form_file_none:"Keine Datei ausgewählt", form_submit:"Nachricht Senden", form_success:'<i class="fas fa-paper-plane"></i> <strong>Vielen Dank für Ihr Vertrauen!</strong><br>Ihre Anfrage wurde erfolgreich empfangen. Wir sprechen uns sehr bald, um Ihre Vision in eine außergewöhnliche 3D-Realität zu verwandeln.',
   footer_rights:"Alle Rechte vorbehalten."
 },
 
@@ -245,7 +245,7 @@ it: {
   contact_title:'Creiamo Qualcosa di <span>Straordinario</span>', contact_desc:"Pronto a far risaltare il tuo brand alla prossima fiera? Compila il modulo e ti risponderò entro 24 ore.",
   contact_response:"Risposta entro 24h", contact_worldwide:"Progetti Mondiali",
   form_name:"Nome Completo *", form_email:"Email *", form_company:"Azienda *", form_event:"Nome Fiera *", form_size:"Dimensione Stand *", form_budget:"Budget *", form_brief:"Descrizione Progetto *",
-  form_size_ph:"Seleziona dimensione", form_budget_ph:"Seleziona budget", form_file:"Allega File (opzionale)", form_file_btn:"Scegli file", form_file_none:"Nessun file scelto", form_submit:'Invia Messaggio <i class="fas fa-paper-plane"></i>', form_success:"Grazie! Il tuo messaggio è pronto per l'invio. Risponderò entro 24 ore.",
+  form_size_ph:"Seleziona dimensione", form_budget_ph:"Seleziona budget", form_file:"Allega File (opzionale)", form_file_btn:"Scegli file", form_file_none:"Nessun file scelto", form_submit:"Invia Messaggio", form_success:'<i class="fas fa-paper-plane"></i> <strong>Grazie per la tua fiducia!</strong><br>La tua richiesta è stata ricevuta con successo. Ci sentiremo molto presto per trasformare la tua visione in un\'eccezionale realtà 3D.',
   footer_rights:"Tutti i diritti riservati."
 },
 
@@ -285,7 +285,7 @@ zh: {
   contact_title:'让我们创造<span>精彩</span>', contact_desc:"准备好在下一次展览中让您的品牌脱颖而出？填写表格，我将在24小时内回复。",
   contact_response:"24小时内回复", contact_worldwide:"全球项目",
   form_name:"姓名 *", form_email:"邮箱 *", form_company:"公司 *", form_event:"展会名称 *", form_size:"展位面积 *", form_budget:"预算范围 *", form_brief:"项目简介 *",
-  form_size_ph:"选择面积", form_budget_ph:"选择预算", form_file:"附加文件（可选）", form_file_btn:"选择文件", form_file_none:"未选择任何文件", form_submit:'发送消息 <i class="fas fa-paper-plane"></i>', form_success:"谢谢！您的消息已准备好发送。我将在24小时内回复。",
+  form_size_ph:"选择面积", form_budget_ph:"选择预算", form_file:"附加文件（可选）", form_file_btn:"选择文件", form_file_none:"未选择任何文件", form_submit:"发送消息", form_success:'<i class="fas fa-paper-plane"></i> <strong>感谢您的信任！</strong><br>您的请求已成功接收。我们将很快与您联系，将您的愿景转化为卓越的3D现实。',
   footer_rights:"版权所有。"
 }
 };
